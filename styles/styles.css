@@ -71,7 +71,7 @@ ul.card-list > li ul {
 ul.card-list > li ul li {
   list-style-type: none;
   line-height: 1.25rem;
-  margin: 4px 0;
+  margin-bottom: 4px;
 }
 
 ul.card-list > li ul li:before {
@@ -165,7 +165,7 @@ section.skills ul {
 section.skills ul li {
   list-style-type: none;
   line-height: 1.25rem;
-  margin: 4px 0;
+  margin-bottom: 4px;
   min-width: 25%;
 }
 
@@ -183,7 +183,7 @@ section.education p {
 
 @media print {
   * {
-    font-size: 12px;
+    font-size: 11.5px;
   }
   h1 {
     font-size: 1.75em;
@@ -213,11 +213,11 @@ section.education p {
     display: block;
   }
   .container {
-    width: 8.5in;
-    max-width: 8.5in;
+    width: 8in;
+    max-width: 8in;
     height: 11in;
     max-height: 11in;
-    margin-bottom: 0;
+    margin: 0;
   }
   section.contact {
     margin: 0;
@@ -229,9 +229,12 @@ section.education p {
     font-size: 1em;
     text-decoration: none;
   }
+  .card-title-container .card-title i {
+    font-size: 1.1em;
+  }
 }
 
-@media (max-width: 65rem) {
+@media screen and (max-width: 65rem) {
   .card-title-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -247,19 +250,19 @@ section.education p {
   }
 }
 
-@media (max-width: 59rem) {
+@media screen and (max-width: 59rem) {
   section.skills ul li {
     min-width: 33.333333333%;
   }
 }
 
-@media (max-width: 47rem) {
+@media screen and (max-width: 47rem) {
   section.skills ul li {
     min-width: 50%;
   }
 }
 
-@media (max-width: 34rem) {
+@media screen and (max-width: 34rem) {
   * {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -271,7 +274,7 @@ section.education p {
   }
 }
 
-@media (max-width: 24.75rem) {
+@media screen and (max-width: 24.75rem) {
   section.skills ul li {
     min-width: 100%;
   }
