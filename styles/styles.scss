@@ -91,11 +91,16 @@ ul.card-list {
   }
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   display: flex;
+  margin: 8px 24px 32px 24px;
   flex-direction: column;
   max-width: 60em;
-  margin: 8px auto 32px auto;
 }
 
 .header {
@@ -106,6 +111,7 @@ section.contact {
   ul.contact-info {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     max-width: 750px;
     margin: 0 auto;
     li {
@@ -206,6 +212,56 @@ section.education {
           text-decoration: none;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 65rem) {
+  .card-title-container {
+    flex-direction: column;
+    align-items: unset;
+    .location-date {
+      text-align: left;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+@media (max-width: 59rem) {
+  section.skills {
+    ul li {
+      min-width: 33.333333333%;
+    }
+  }
+}
+
+@media (max-width: 47rem) {
+  section.skills {
+    ul li {
+      min-width: 50%;
+    }
+  }
+}
+
+@media (max-width: 34rem) {
+  * {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #222222;
+  }
+
+  .header {
+    img {
+      margin-top: 16px;
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 26rem) {
+  section.skills {
+    ul li {
+      min-width: 100%;
     }
   }
 }
