@@ -1,12 +1,13 @@
 @charset "UTF-8";
-* {
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #222222;
 }
 
-h1, h2 {
-  font-family: 'Fira Mono', monospace;
+h1,
+h2 {
+  font-family: 'Hack', monospace;
+  font-weight: normal;
 }
 
 h1 {
@@ -23,7 +24,12 @@ h3 {
   margin: 0.5em 0;
 }
 
-em, i {
+a {
+  color: #222222;
+}
+
+em,
+i {
   font-weight: 600;
   font-style: normal;
   color: #333333;
@@ -75,7 +81,7 @@ ul.card-list > li ul li {
 }
 
 ul.card-list > li ul li:before {
-  content: "▹ ";
+  content: '▹ ';
 }
 
 .card-title-container {
@@ -170,7 +176,7 @@ section.skills ul li {
 }
 
 section.skills ul li:before {
-  content: "▹ ";
+  content: '▹ ';
 }
 
 section.experiences article.experience ul {
