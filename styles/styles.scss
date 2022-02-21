@@ -112,6 +112,7 @@ body {
 
 .header {
   align-self: center;
+  margin-bottom: 0;
 }
 
 section.contact {
@@ -125,7 +126,6 @@ section.contact {
       a {
         color: black;
         text-decoration: none;
-        font-size: 1.1em;
         color: #333333;
         &:hover,
         &:focus {

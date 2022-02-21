@@ -133,6 +133,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  margin-bottom: 0;
 }
 
 section.contact ul.contact-info {
@@ -150,7 +151,6 @@ section.contact ul.contact-info {
 section.contact ul.contact-info li a {
   color: black;
   text-decoration: none;
-  font-size: 1.1em;
   color: #333333;
 }
 
