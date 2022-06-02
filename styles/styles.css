@@ -99,7 +99,8 @@ ul.card-list > li ul li:before {
           flex: 1 0 auto;
 }
 
-.card-title-container .card-title i {
+.card-title-container .card-title i,
+.card-title-container .card-title em {
   font-size: 1.25rem;
 }
 

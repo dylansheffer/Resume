@@ -88,7 +88,8 @@ ul.card-list {
     flex: 1 0 auto;
   }
   .card-title {
-    i {
+    i,
+    em {
       font-size: 1.25rem;
     }
   }
